@@ -49,38 +49,11 @@ Input Image
 ```bash
 pip install torch torchvision timm einops
 ```
-
-## Usage
-
-```bash
-# Training
-python train.py --dataset products10k --backbone resnet50 --epochs 100
-
-# Evaluation
-python eval.py --checkpoint /path/to/checkpoint.pth --dataset rp2k
-```
-
-## Results
-
-Extensive experiments on Products-10K, RP2K, and Retail1K demonstrate the effectiveness of the proposed framework over recent state-of-the-art CNN- and Transformer-based methods. Full quantitative results are reported in the paper.
-
 ## Data Availability
 
 Products-10K and RP2K are publicly available at the links above. The Retail1K dataset is not publicly available due to licensing restrictions imposed by the commercial provider from which it was acquired, but is available from the corresponding author on reasonable request.
 
 ## Citation
-
-If you find this work useful, please cite:
-
-```bibtex
-@article{yourpaper2026,
-  title={Combining Transformer Global and Task-Relevant Local CNN Features for Retail Product Recognition},
-  author={},
-  journal={},
-  year={2026}
-}
-```
-
 ## License
 
 This repository is released for academic research purposes.
