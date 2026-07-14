@@ -51,8 +51,7 @@ pip install torch torchvision timm einops
 ```
 ## Data Availability
 
-Products-10K and RP2K are publicly available at the links above. The Retail1K dataset is not publicly available due to licensing restrictions imposed by the commercial provider from which it was acquired, but is available from the corresponding author on reasonable request.
-
+Products-10K and RP2K are publicly available at the links above. The Retail1K dataset is not publicly available due to licensing restrictions imposed by the commercial provider from which it was acquired.
 ## Citation
 ## License
 
